@@ -11,7 +11,7 @@
     --bg-color: #e5e5e5;
     --second-color:#fff;
     --main-color: #f29494;
-    --big-font:55px;
+    --big-font:70px;
     --p-font:32px;
     --other-color:#868686;
 }
@@ -48,7 +48,7 @@ header{
     display: flex;
 }
 .navlist a{
-    font-size:14px;
+    font-size:16px;
     color: var(--text-color);
     font-weight: 600;
     margin: 0 25px;
@@ -123,10 +123,10 @@ section{
 }
 .hero-in{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(115px, auto));
     align-items: center;
     text-align: center;
-    gap: 30px;
+    gap: 20px;
 }
 .hero-text h1{
     font-size: var(--big-font);
@@ -151,9 +151,9 @@ section{
 }
 .box{
     background:var(--second-color);
-    padding: 30px 20px;
-    border-radius: 16px;
-    box-shadow: rgba(33,35,38,0.1) 0px 10px 10px -10px;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: rgba(33,35,38,0.1) 0px 8px 8px -8px;
     transition: all ease .55s;
     cursor: pointer;
 }
@@ -205,7 +205,7 @@ body.color{
 }
 @media (max-width:1400px){
     :root{
-         --big-font: 48px;
+         --big-font: 60px;
     }
     .box h3{
         font-size: 20px;
